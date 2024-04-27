@@ -1,7 +1,24 @@
 # ¿QUE ES UN PATRON DE DISEÑO?
 
+ >>Un patrón de diseño es una solución general y reutilizable a un problema común que se presenta durante el desarrollo de software. Estos patrones proporcionan un enfoque probado y estructurado para resolver problemas de diseño de software de manera eficiente, promoviendo la reutilización de código, la modularidad y la mantenibilidad.
+
+ >> Existen varios patrones de diseño con muchas soluciones pero existen tres principales: 
+  - **Patrones de creacion**: Estos patrones se centran en la creación de objetos de manera eficiente, abstrayendo el proceso de creación para que el cliente no necesite conocer los detalles específicos de la implementación.
+ - **Patrones de estructura**: Estos patrones se ocupan de la composición de clases y objetos para formar estructuras más grandes y complejas. 
+ - **Patrones de comportamiento**: Estos patrones se centran en la comunicación entre objetos y cómo se comportan entre sí para lograr un comportamiento más flexible y eficiente del software. 
+  
 # ¿EN QUE CONSISTE?
+ 
+ >> El propósito principal de los patrones de diseño en el desarrollo de software es proporcionar soluciones probadas y efectivas a problemas comunes que surgen durante el proceso de diseño y desarrollo. Estos patrones están diseñados para mejorar la eficiencia, la reutilización del código y la mantenibilidad del software.
+
+ >> Los patrones de diseño consisten en descripciones formales de las mejores prácticas y soluciones para problemas específicos. Proporcionan un conjunto de reglas y pautas para la creación de software de alta calidad que sea fácil de entender, modificar y mantener. 
 
 # ¿POR QUE APRENDER SOBRE PATRONES?
 
-### EJEMPLO DE PATRON DE DISEÑO CON PHP
+ - **Eficiencia en el desarrollo:**Los patrones de diseño proporcionan soluciones probadas y eficientes a problemas comunes en el diseño de software. Al aplicar estos patrones, los desarrolladores pueden evitar la necesidad de reinventar la rueda cada vez que se enfrentan a un problema similar, lo que ahorra tiempo y esfuerzo durante el desarrollo.
+ - **Reutilizacion de codigo:**Al utilizar patrones de diseño, los desarrolladores pueden reutilizar componentes de software existentes que implementan esos patrones. Esto promueve la modularidad y la reutilización del código, lo que a su vez conduce a un desarrollo más rápido y una mayor consistencia en el código base.
+ - **Mantenibilidad y escalabilidad:**Los patrones de diseño están diseñados para crear software que sea fácil de entender, mantener y extender. Al seguir las mejores prácticas y principios establecidos por los patrones de diseño, se reduce la complejidad del código y se facilita la incorporación de nuevas características y la realización de cambios en el software con un menor riesgo de introducir errores.
+ - **Comunicacion efectiva:**Los patrones de diseño proporcionan un lenguaje común y una forma de comunicarse sobre el diseño de software dentro de un equipo de desarrollo. Esto facilita la colaboración entre los miembros del equipo y ayuda a garantizar un entendimiento compartido de la arquitectura y el diseño del sistema.
+ - **Mejora de la calidad del software:**Al aplicar patrones de diseño, los desarrolladores pueden crear software que cumpla con los principios de diseño sólidos y las mejores prácticas de la industria. Esto conduce a un código más limpio, modular y mantenible, que es menos propenso a errores y más fácil de depurar y mantener a largo plazo.
+
+## EJEMPLO DE PATRON DE DISEÑO CON PHP
