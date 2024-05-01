@@ -22,6 +22,8 @@
  - **Mejora de la calidad del software:**Al aplicar patrones de diseño, los desarrolladores pueden crear software que cumpla con los principios de diseño sólidos y las mejores prácticas de la industria. Esto conduce a un código más limpio, modular y mantenible, que es menos propenso a errores y más fácil de depurar y mantener a largo plazo.
 
 ## EJEMPLO DE PATRON DE DISEÑO CON PHP
+>> En mi caso he elegido el patron de diseño llamado "bridge", el cual te permite dividir una clase muy grande en varias clases pequeñas pero que esten relacionadas con al principal gracias al uso de "extends", gracias a este patron podremos crear una clase que generalice los atributos y metodos que tendran las demas clases hijas para que estas mismas pueden usar esos metodos en todo momento. En mi ejemplo he imaginado un partido del ceuta el cual iran mucha gente la cual puede ser "abonado" o "junta directiva" y ambos tendran atributos y metodos en comun, para ello he creado una clase padre llamada "Persona" el cual tendra los atributos tipicos que tendria una persona normal para despues crear las otras dos clases que van a heredar sus atributos y metodos. 
+
 ```php
 
   <?php 
