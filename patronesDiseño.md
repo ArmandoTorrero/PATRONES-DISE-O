@@ -22,3 +22,96 @@
  - **Mejora de la calidad del software:**Al aplicar patrones de diseño, los desarrolladores pueden crear software que cumpla con los principios de diseño sólidos y las mejores prácticas de la industria. Esto conduce a un código más limpio, modular y mantenible, que es menos propenso a errores y más fácil de depurar y mantener a largo plazo.
 
 ## EJEMPLO DE PATRON DE DISEÑO CON PHP
+```php
+
+  <?php 
+    class Persona 
+    {
+        public $dni; 
+        public $nombre;  
+        public $edad; 
+
+        public function __construct($dni, $nombre, $edad) {
+            $this->dni = $dni;
+            $this->nombre = $nombre;
+            $this->edad = $edad;
+        }
+
+        public function setDNI($dni) {
+            $this->dni = $dni;         
+        }
+
+        public function setNombre($nombre) {
+            $this->nombre = $nombre;
+        }
+
+        public function setEdad($edad) {
+            $this->edad = $edad; 
+        }
+
+        public function getDNI() {
+            return $this->dni;
+        }
+
+        public function getNombre() {
+            return $this->nombre;
+        }
+
+        public function getEdad() {
+            return $this->edad;
+        }
+    }
+
+    class abonado extends Persona
+    {
+        public $numero_abonado; 
+        public $asiento_abonado; 
+        public $fechaPrimerAbono; 
+
+        public function __construct($numero_abonado,$asiento_abonado,$fechaPrimerAbono) {
+            $this->numero_abonado = $numero_abonado;
+            $this->asiento_abonado = $asiento_abonado;
+            $this->fechaPrimerAbono = $fechaPrimerAbono;
+        }
+
+        public function setNumeroAbonado($numero_abonado) {
+            $this->numero_abonado = $numero_abonado;
+        }
+
+        public function setAsiento($asiento_abonado) {
+            $this->asiento_abonado = $asiento_abonado;
+        }
+
+        public function setFechaPrimerAbono($fechaPrimerAbono) {
+            $this->fechaPrimerAbono = $fechaPrimerAbono;
+        }
+    }
+
+    class juntaDirectiva extends Persona
+    {
+        public $numero_junta_directiva; 
+        public $sector; 
+
+        public function __construct($numero_junta_directiva, $sector) {
+            $this->numero_junta_directiva = $numero_junta_directiva;
+            $this->sector = $sector;
+        }
+
+        public function setNumeroJunta($numero_junta_directiva){       
+            $this->numero_junta_directiva = $numero_junta_directiva;
+        }
+
+        public function setSeccion($sector) {
+            $this->sector = $sector;
+        }
+    }
+
+    $objPersona = new Persona("12345678M","Juan",17);
+    
+    $objAbonado = new abonado("22334455n","Carlos",27);
+    
+    $objAbonado->getEdad(); 
+    $objAbonado->getNombre()
+?>
+
+```
